@@ -13,6 +13,11 @@ return {
 		"string.name",
 		"string.id",
 	},
+	["wanke"] = {
+		"key_number.id",
+		"tuple_string.name",
+		"string.name",
+	},
 }
 
 
