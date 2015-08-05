@@ -2,10 +2,10 @@
 
 local originTable = dofile("table_define.lua")
 
-for fileName_,myTable_ in pairs(originTable) do
+for fileName_,myTable_ in next, originTable do
 	local fileName = fileName_
 	local myTable ={}
-	for k,v in pairs(myTable_) do
+	for k,v in next, myTable_ do
 		myTable[k] = v
 	end
 
@@ -24,7 +24,7 @@ for fileName_,myTable_ in pairs(originTable) do
 		file:write("\t")
 		file:write("<row>")
 		file:write("\n")
-		for k, v in pairs(myTable) do
+		for k, v in next, myTable do
 			file:write("\t")
 			file:write("\t")
 			file:write("<"..v..">".."</"..v..">")
