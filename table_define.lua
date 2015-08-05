@@ -18,6 +18,16 @@ return {
 		"tuple_string.name",
 		"string.name",
 	},
+	["wanke1"] = {
+		"key_number.id",
+		"tuple_string.name",
+		"string.name",
+	},
+	["wanke2"] = {
+		"key_number.id",
+		"tuple_string.name",
+		"string.name",
+	},
 }
 
 
